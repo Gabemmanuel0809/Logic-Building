@@ -3,13 +3,13 @@ import "fmt"
 
 func main() {
 	numbers := [...]int{10, 2, 50, 93, -5, -7, 13, 22, 85, 73, 21, 18, 11, 14, 15}
-  odd := []int{}
+    odd := []int{}
 	even := []int{}
 	filter := []int{}
-  filter2 := []int{}
+    filter2 := []int{}
 	filter3 := []int{}
 
-  fmt.Print("All Numbers: ")
+    fmt.Print("All Numbers: ")
 	for _, value := range numbers {
 		 fmt.Print(" ",value)
 	}
