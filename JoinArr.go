@@ -2,7 +2,7 @@ package main
 import "fmt"
 
 func main() {
-  var users = [...]string{"John", "Bob", "Peter"}
+    var users = [...]string{"John", "Bob", "Peter"}
 	var orders = [...]string{"Burger", "Fries", "Doughnout"}
 
   // Joining two arrays in a map
